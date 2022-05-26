@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+
+@media screen and (min-width: 1024px) {
+    .pp-l {
+        transform: translate(1rem);
+        height: 50vh;
+    }
+    .pp-desc-l {
+        transform: translate(-1rem);
+    }
+    .pp-r {
+        transform: translate(-1rem);
+        height: 50vh;
+    }
+    .pp-desc-r {
+        transform: translate(1rem);
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .pp {
+        height:50vh;
+    }
+  }
+
+
+
+
+/* Scrollbar */
+  /* Firefox */
+* {
+scrollbar-width: auto;
+scrollbar-color: #d72600 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #d72600;
+border-radius: 10px;
+border: 3px solid #ffffff;
+}
+
+
+.font-outfit{
+    font-family: Outfit;
+}
+
+.bg-grey{
+    background-color: rgb(245, 240, 240);
+}
+
+
+.header{
+    height: 90vh;
+    background-image: url(../../images/bg1.jpg);
+    background-repeat:no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -10vh;
+}
+
+.header-min{
+    height: 45vh;
+    background-image: url(../../images/bg2.jpg);
+    background-repeat:no-repeat;
+	background-size: cover;
+    background-position: center;
+    background-position-y: -4vh;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.etiquette{
+    margin-top: -7vh;
+    background-color: rgba(255, 255, 255, 0.7);;
+    backdrop-filter: blur(10px);
+}
+
+.card{
+    transform:translateY(4vh) translateX(1vh) rotate(15deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bg-rules{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.table{
+    background-image: url(../../images/bg-table.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-bg{
+    background-color: #ffffff2a;
+}
+
+.pp{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
